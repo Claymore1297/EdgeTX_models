@@ -1,0 +1,50 @@
+Labels:
+  "Favorites":
+Sort: 1
+Models:
+  model1.yml:
+    hash: "b3320000865cd08e"
+    name: "LUGGS"
+    mod0type: 6
+    mod0rf: 56
+    labels: "Favorites"
+    bitmap: "Luggs_2.0.jpg"
+    lastopen: 1775479388
+  model13.yml:
+    hash: "ec280000815c57a9"
+    name: "Simulator"
+    mod0type: 6
+    labels: ""
+    bitmap: ""
+    lastopen: 1775077897
+  model2.yml:
+    hash: "81360000855cdda3"
+    name: "Extra 330LX"
+    mod0id: 1
+    mod0type: 6
+    mod0rf: 56
+    mod1id: 1
+    labels: "Favorites"
+    bitmap: "Extra330lx.jpg"
+    lastopen: 946697940
+  model3.yml:
+    hash: "0c340000875c8db1"
+    name: "TwinStar 2"
+    mod0id: 2
+    mod0type: 6
+    mod0rf: 56
+    mod1id: 1
+    labels: "Favorites"
+    bitmap: "TwinStar2.jpg"
+    lastopen: 1775596052
+  model4.yml:
+    hash: "6f390000875c56b2"
+    name: "Piper"
+    mod0id: 3
+    mod0type: 6
+    mod0rf: 56
+    mod1id: 1
+    labels: "Favorites"
+    bitmap: "Piper.jpg"
+    lastopen: 1775599979
+
