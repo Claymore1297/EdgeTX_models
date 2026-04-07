@@ -1,0 +1,795 @@
+semver: 2.12.0
+header: 
+   name: "Piper Super Cub"
+   modelId: 
+      0:
+         val: 3
+      1:
+         val: 1
+   bitmap: "Piper.jpg"
+   labels: "Favorites"
+timers: 
+   0:
+      start: 420
+      swtch: "RADIO_ACTIVITY"
+      value: 0
+      mode: THR
+      countdownBeep: 1
+      minuteBeep: 0
+      persistent: 0
+      countdownStart: 1
+      showElapsed: 0
+      extraHaptic: 0
+      name: "T1"
+   1:
+      start: 0
+      swtch: "NONE"
+      value: 0
+      mode: OFF
+      countdownBeep: 0
+      minuteBeep: 0
+      persistent: 0
+      countdownStart: -1
+      showElapsed: 0
+      extraHaptic: 0
+      name: ""
+   2:
+      start: 0
+      swtch: "NONE"
+      value: 8981
+      mode: OFF
+      countdownBeep: 0
+      minuteBeep: 0
+      persistent: 2
+      countdownStart: -1
+      showElapsed: 0
+      extraHaptic: 0
+      name: ""
+telemetryProtocol: 0
+thrTrim: 0
+noGlobalFunctions: 0
+displayTrims: 0
+ignoreSensorIds: 0
+trimInc: 0
+disableThrottleWarning: 0
+displayChecklist: 0
+extendedLimits: 1
+extendedTrims: 0
+throttleReversed: 0
+enableCustomThrottleWarning: 0
+disableTelemetryWarning: 0
+showInstanceIds: 0
+checklistInteractive: 0
+customThrottleWarningPosition: 0
+beepANACenter: 0
+mixData: 
+ -
+   destCh: 0
+   srcRaw: "I0"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Thrott"
+ -
+   destCh: 1
+   srcRaw: "I1"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Ailer"
+ -
+   destCh: 2
+   srcRaw: "I2"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Elevat"
+ -
+   destCh: 2
+   srcRaw: "I2"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 7
+   swtch: "SC2"
+   delayUp: 30
+   delayDown: 30
+   speedUp: 0
+   speedDown: 0
+   name: "Landun"
+ -
+   destCh: 3
+   srcRaw: "I3"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Rudder"
+ -
+   destCh: 4
+   srcRaw: "ch(1)"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "AilerR"
+ -
+   destCh: 5
+   srcRaw: "ch(5)"
+   carryTrim: 1
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 0
+   offset: -48
+   swtch: "SC1"
+   delayUp: 30
+   delayDown: 30
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   destCh: 5
+   srcRaw: "ch(5)"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 0
+   offset: -16
+   swtch: "SC0"
+   delayUp: 30
+   delayDown: 30
+   speedUp: 0
+   speedDown: 0
+   name: "Start"
+ -
+   destCh: 5
+   srcRaw: "ch(5)"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 0
+   offset: 70
+   swtch: "SC2"
+   delayUp: 30
+   delayDown: 30
+   speedUp: 0
+   speedDown: 0
+   name: "Landun"
+ -
+   destCh: 6
+   srcRaw: "ch(6)"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 38
+   offset: 23
+   swtch: "SC1"
+   delayUp: 30
+   delayDown: 30
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   destCh: 6
+   srcRaw: "ch(6)"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 0
+   offset: 11
+   swtch: "SC0"
+   delayUp: 30
+   delayDown: 30
+   speedUp: 0
+   speedDown: 0
+   name: "Start"
+ -
+   destCh: 6
+   srcRaw: "ch(6)"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 0
+   offset: -149
+   swtch: "SC2"
+   delayUp: 30
+   delayDown: 30
+   speedUp: 0
+   speedDown: 0
+   name: "Landun"
+limitData: 
+   0:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "Thr"
+   1:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 14
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "AilL"
+   2:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "Ele"
+   3:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 64
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "Rud"
+   4:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 70
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "AilR"
+   5:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 1
+      curve: 0
+      name: "FlapL"
+   6:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: -80
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "FlapR"
+   7:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "CH8"
+   8:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "CH9"
+   9:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "CH10"
+   10:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "CH11"
+   11:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "CH12"
+   12:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "CH13"
+   13:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "CH14"
+   14:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "CH15"
+   15:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "CH16"
+expoData: 
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: "Thr"
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   curve: 
+      type: 3
+      value: 32
+   chn: 0
+   flightModes: 000000000
+   name: ""
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: "Ail"
+   weight: 100
+   offset: 0
+   swtch: "SC1"
+   curve: 
+      type: 1
+      value: 30
+   chn: 1
+   flightModes: 000000000
+   name: "Normal"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: "Ele"
+   weight: 100
+   offset: 0
+   swtch: "SC1"
+   curve: 
+      type: 1
+      value: 30
+   chn: 2
+   flightModes: 000000000
+   name: "Normal"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: "Rud"
+   weight: 100
+   offset: 0
+   swtch: "SC1"
+   curve: 
+      type: 1
+      value: 30
+   chn: 3
+   flightModes: 000000000
+   name: "Normal"
+curves: 
+   0:
+      type: 1
+      smooth: 1
+      points: 0
+      name: ""
+   31:
+      type: 1
+      smooth: 1
+      points: -1
+      name: "CNT"
+points: 
+   0:
+      val: -100
+   1:
+      val: -50
+   3:
+      val: 50
+   4:
+      val: 100
+   5:
+      val: -50
+   7:
+      val: 50
+   158:
+      val: -100
+   161:
+      val: 100
+   162:
+      val: -1
+   163:
+      val: 1
+logicalSw: 
+   0:
+      func: FUNC_VNEG
+      def: "I0,-95"
+      andsw: "NONE"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+   1:
+      func: FUNC_STICKY
+      def: "SF0,L1"
+      andsw: "NONE"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+customFn: 
+   0:
+      swtch: "SF2"
+      func: PLAY_TRACK
+      def: "engon,1,1x"
+   1:
+      swtch: "SF0"
+      func: PLAY_TRACK
+      def: "engoff,1,1x"
+   2:
+      swtch: "L2"
+      func: OVERRIDE_CHANNEL
+      def: "0,-100,1"
+   3:
+      swtch: "SF0"
+      func: OVERRIDE_CHANNEL
+      def: "0,-100,1"
+   4:
+      swtch: "SH2"
+      func: TRAINER
+      def: "sticks,1"
+   5:
+      swtch: "SH2"
+      func: PLAY_TRACK
+      def: "trnon,1,1x"
+   6:
+      swtch: "SH0"
+      func: PLAY_TRACK
+      def: "trnoff,1,1x"
+   7:
+      swtch: "SC2"
+      func: PLAY_TRACK
+      def: "flapD,1,1x"
+   8:
+      swtch: "SC1"
+      func: PLAY_TRACK
+      def: "flapup,1,1x"
+   9:
+      swtch: "SC0"
+      func: PLAY_TRACK
+      def: "flhaus,1,1x"
+flightModeData: 
+   0:
+      trim: 
+         4:
+            value: 6
+            mode: 0
+         5:
+            value: 10
+            mode: 0
+      name: "Normal"
+      swtch: "NONE"
+      fadeIn: 5
+      fadeOut: 5
+      gvars: 
+         0:
+            val: 0
+         1:
+            val: 0
+         2:
+            val: 0
+         3:
+            val: 0
+         4:
+            val: 0
+         5:
+            val: 0
+         6:
+            val: 0
+         7:
+            val: 0
+         8:
+            val: 0
+   1:
+      name: "Start"
+      swtch: "SC0"
+      fadeIn: 20
+      fadeOut: 20
+   2:
+      trim: 
+         1:
+            value: -5
+            mode: 0
+      name: "Landung"
+      swtch: "SC2"
+      fadeIn: 20
+      fadeOut: 20
+thrTraceSrc: Thr
+switchWarning: 
+   SC:
+      pos: mid
+   SF:
+      pos: up
+   SH:
+      pos: mid
+rssiSource: none
+rfAlarms: 
+   warning: 45
+   critical: 42
+thrTrimSw: 0
+potsWarnMode: WARN_OFF
+jitterFilter: GLOBAL
+moduleData: 
+   0:
+      type: TYPE_MULTIMODULE
+      subType: 57,0
+      channelsStart: 0
+      channelsCount: 12
+      failsafeMode: HOLD
+      mod: 
+         multi: 
+            disableTelemetry: 0
+            disableMapping: 0
+            autoBindMode: 0
+            lowPowerMode: 0
+            receiverTelemetryOff: 0
+            receiverHigherChannels: 0
+            optionValue: 0
+trainerData: 
+   mode: MASTER_TRAINER_JACK
+   channelsStart: 0
+   channelsCount: 0
+   frameLength: 0
+   delay: 0
+   pulsePol: 0
+inputNames: 
+   0:
+      val: "Thr"
+   1:
+      val: "Ail"
+   2:
+      val: "Ele"
+   3:
+      val: "Rud"
+potsWarnEnabled: 0
+screenData: 
+   0:
+      LayoutId: Layout2P1
+      layoutData: 
+         zones: 
+            0:
+               widgetName: ModelBmp
+               widgetData: 
+                  options: 
+                     0:
+                        type: Color
+                        value: 
+                           color: 0x105C98
+                     1:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     3:
+                        type: Color
+                        value: 
+                           color: 0xE0ECF0
+                     4:
+                        type: Bool
+                        value: 
+                           boolValue: 1
+            1:
+               widgetName: Timer
+               widgetData: 
+                  options: 
+                     0:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+            2:
+               widgetName: Outputs
+               widgetData: 
+                  options: 
+                     0:
+                        type: Signed
+                        value: 
+                           signedValue: 1
+                     1:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     2:
+                        type: Color
+                        value: 
+                           color: 0x000000
+                     3:
+                        type: Color
+                        value: 
+                           color: 0x000000
+                     4:
+                        type: Color
+                        value: 
+                           color: 0x105C98
+         options: 
+            0:
+               type: Bool
+               value: 
+                  boolValue: 1
+            1:
+               type: Bool
+               value: 
+                  boolValue: 1
+            2:
+               type: Bool
+               value: 
+                  boolValue: 1
+            3:
+               type: Bool
+               value: 
+                  boolValue: 1
+            4:
+               type: Bool
+               value: 
+                  boolValue: 1
+topbarData: 
+   zones: 
+      3:
+         widgetName: Internal GPS
+         widgetData: 
+      4:
+         widgetName: Radio Info
+         widgetData: 
+            options: 
+               0:
+                  type: Color
+                  value: 
+                     color: 0xF04030
+               1:
+                  type: Color
+                  value: 
+                     color: 0xF8C000
+               2:
+                  type: Color
+                  value: 
+                     color: 0x48AC50
+      5:
+         widgetName: Date Time
+         widgetData: 
+            options: 
+               0:
+                  type: Color
+                  value: 
+                     color: COLIDX1
+topbarWidgetWidth: 
+   0:
+      val: 1
+   1:
+      val: 1
+   2:
+      val: 1
+   3:
+      val: 1
+   4:
+      val: 1
+   5:
+      val: 1
+view: 0
+modelRegistrationID: "664049Q-"
+usbJoystickExtMode: 0
+usbJoystickIfMode: JOYSTICK
+usbJoystickCircularCut: 0
+radioThemesDisabled: GLOBAL
+radioGFDisabled: GLOBAL
+radioTrainerDisabled: GLOBAL
+modelHeliDisabled: GLOBAL
+modelFMDisabled: GLOBAL
+modelCurvesDisabled: GLOBAL
+modelGVDisabled: GLOBAL
+modelLSDisabled: GLOBAL
+modelSFDisabled: GLOBAL
+modelCustomScriptsDisabled: GLOBAL
+modelTelemetryDisabled: GLOBAL
