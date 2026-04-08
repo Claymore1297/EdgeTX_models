@@ -1,0 +1,13 @@
+Labels:
+  "Favorites":
+Sort: 1
+Models:
+  model1.yml:
+    hash: "e8200000885c65ad"
+    name: "Doppeldecker"
+    mod0id: 1
+    mod0type: 5
+    labels: "Favorites"
+    bitmap: "Doppeld.jpg"
+    lastopen: 1775665023
+
