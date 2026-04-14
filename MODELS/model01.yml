@@ -1,11 +1,11 @@
-semver: 2.11.5
+semver: 3.0.0
 header: 
    name: "DLG"
 timers: 
    0:
       start: 0
       swtch: "L5"
-      value: 54
+      value: 86
       mode: START
       countdownBeep: 0
       minuteBeep: 1
@@ -324,25 +324,25 @@ customFn:
       func: PLAY_TRACK
       def: "fmstar,1,1x"
    1:
-      swtch: "SB0"
+      swtch: "SC2"
       func: PLAY_TRACK
       def: "fm-thm,1,1x"
    2:
-      swtch: "SB1"
+      swtch: "SC1"
       func: PLAY_TRACK
-      def: "fmspee,1,1x"
+      def: "fm-nrm,1,1x"
    3:
-      swtch: "SB2"
+      swtch: "SC0"
       func: PLAY_TRACK
       def: "fmcrus,1,1x"
    4:
       swtch: "!SC0"
       func: VARIO
-      def: "1"
+      def: "0"
    5:
       swtch: "SC2"
       func: PLAY_VALUE
-      def: "tele(4),1,10"
+      def: "tele(4),0,10"
    6:
       swtch: "L1"
       func: PLAY_VALUE
@@ -417,7 +417,7 @@ flightModeData:
             value: 0
             mode: 4
       name: "Term"
-      swtch: "SB0"
+      swtch: "SC2"
       fadeIn: 0
       fadeOut: 0
    3:
@@ -435,7 +435,7 @@ flightModeData:
             value: -4
             mode: 6
       name: "Cruise"
-      swtch: "SB2"
+      swtch: "SC0"
       fadeIn: 0
       fadeOut: 0
    4:
